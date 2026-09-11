@@ -1,0 +1,24 @@
+# Ficheiros a ignorar
+*.png
+*.csv 
+__pycache__/ 
+*.pyc
+.env
+*.npz
+*.zip
+
+
+# Folders a ignorar
+
+# artefactos mlruns
+mlruns/ 
+#pasta com paginas anteiores
+interface/pages/tests
+data/
+src/mlflow_tests
+.ipynb_checkpoints
+
+
+# Scripts a ignorar
+interface/pages/pdf_upload.py
+src/pdf_reader.py 
